@@ -1,0 +1,31 @@
+.content_num{
+	display: flex;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	    width: 200px;
+	    -webkit-justify-content: center;
+	            justify-content: center;
+}
+.num{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.content_num{
+	display: flex;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+
+}
+.content_num:nth-child(1){
+
+}
+.content_num:nth-child(2){
+	margin-right: 20%;
+}
+.content_num>img{
+    position: relative;
+    right: 46%;
+}

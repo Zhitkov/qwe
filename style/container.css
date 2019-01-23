@@ -1,0 +1,85 @@
+h1{
+	font-family: 'Ubuntu';
+	text-decoration: none;
+	color: #393E6B;
+	transition: color 0.3s ease;
+	margin: 0;
+	font-size: 32px;
+	
+}
+p{
+	font-family: 'Ubuntu';
+	text-decoration: none;
+	color: #74757B;
+	transition: color 0.3s ease;
+	margin: 0
+}
+a{
+	font-family: 'Ubuntu';
+	text-decoration: none;
+	color: #393E6B;
+	transition: color 0.3s ease;
+}
+a:hover
+{
+	color: #21233c;
+}
+.container{
+	margin-top: 80px;
+}
+.container:nth-child(even){
+	background-color: #EFF4F4;
+}
+.container:nth-child(odd){
+	background-color: #fFF;
+}
+.container_content{
+	padding: 60px 25%;
+}
+.container_content > .desk{
+	margin: 40px 0;
+}
+@media(max-width: 768px){
+    .content_num>img{
+	    position: relative;
+	    right: 20%;
+	    width: 45%;
+	}
+	h1{
+	    font-size: 18px;
+	}
+	li>.href{
+		font-size: 14px !important;
+	}
+	p{
+		font-size: 12px;
+	}
+	ul.social{
+		display: block !important;
+	}
+	.container_content{
+	padding: 60px 25%;
+	}
+	.content_num:nth-child(1) {
+    margin-left: 0;
+	}
+	.content_num:nth-child(2) {
+    margin-right: 0%;
+	}
+	.content_num>img {
+    right: 20% !important;
+}
+}
+a.href{
+	text-decoration: underline;
+	color: #00D6BC;
+	cursor: pointer;
+}
+.subtitle{
+	margin: 20px 0
+}
+.container_content:last-child{
+    padding: 60px 15%;
+}
+
+

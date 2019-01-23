@@ -1,0 +1,125 @@
+button {
+  font-size: 12px !important;
+  line-height: 1.5;
+  padding: 12px 20px;
+  color: #000;
+  background-color: none;
+  border: 1px solid #ccc;
+  border-image: none;
+  transition: 0.3s;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  text-transform: none;
+  overflow: visible;
+  margin: 0;
+  font-family: 'Ubuntu';
+  font-weight: 600;
+  min-width: 38%;
+  border-radius: 100px;
+  margin-bottom: 20px;
+}
+button:first-child{
+  margin-right: 20px
+}
+
+button.prime{
+  background-color: #00d6bc;
+  border: none;
+  color: white;
+}
+button.prime:hover {
+  text-decoration: none;
+  background-color: #00a994;
+}
+button.prime:active {
+  background-color: #009885;
+  text-decoration: none;
+}
+button.prime:focus {
+  text-decoration: none;
+  background-color: #00a994;
+}
+button.prime::-moz-focus-inner {
+  padding: 0;
+}
+
+button.prime_second{
+  border: none;
+  color: white;
+  background-color: #393E6B;
+}
+button.prime_second:hover {
+  text-decoration: none;
+  background-color: #21233c;
+}
+button.prime_second:active {
+  background-color: #009885;
+  text-decoration: none;
+}
+button.prime_second:focus {
+  text-decoration: none;
+  background-color: #21233c;
+}
+button.prime_second::-moz-focus-inner {
+  padding: 0;
+}
+
+button.ghost{
+  color: #393E6B;
+  border-color: #393E6B;
+  background-color: #393E6B00;
+}
+button.ghost:hover {
+  text-decoration: none;
+  background-color: #393E6B;
+  color: #fff;
+}
+button.ghost:active {
+  text-decoration: none;
+}
+button.ghost:focus {
+  outline-style: none;
+  text-decoration: none;
+}
+button.ghost::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+@media(max-width: 768px){
+  button{
+    width: 100%;
+    font-size: small;
+  }
+  .container_content {
+    padding: 60px 15%;
+  }
+}
+.go_top {
+  display: flex;
+  -webkit-align-content: center;
+          align-content: center;
+      -webkit-justify-content: center;
+              justify-content: center;
+   line-height:40px;
+   cursor:pointer;
+   width: 50px;
+   height: 50px;
+   background:#00d6bc;
+   color:#fff;
+   position:fixed;
+   -webkit-box-shadow:0 4px 4px rgba(0,0,0,.1);
+   box-shadow:0 4px 4px rgba(0,0,0,.1);
+   -webkit-border-radius:50%;
+   border-radius:50%;
+   right:-webkit-calc((100% - 1140px)/ 2);
+   right:calc((100% - 1140px)/ 2);
+   z-index:111;
+   bottom:50px;
+   text-align:center;
+   right: 50px;
+}
+.go_top>img {
+      width: 30px;
+    }
+
