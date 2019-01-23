@@ -66,6 +66,9 @@ color: #ABAEC0 !important;
     display: flex;
     flex-direction: column;
 }
+.info{
+    font-size: x-small
+}
 .info>b{
     margin: 5px 0;
 }
