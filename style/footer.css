@@ -1,6 +1,6 @@
 .footer, .mobile_footer{
     background-color: #38406A;
-    padding: 40px 60px;
+    padding: 50px 60px;
 }
 .mobile_footer{
     -webkit-justify-content: center;
@@ -19,6 +19,9 @@ color: #ABAEC0 !important;
         -webkit-justify-content: space-between;
                 justify-content: space-between;
         font-size: xx-small;
+    color: #abaec0;
+    font-family: 'Ubuntu';
+        
 }
 .footer_logo{
     width: 100px;

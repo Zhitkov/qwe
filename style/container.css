@@ -34,6 +34,9 @@ a:hover
 	background-color: #fFF;
 }
 .container_content{
+padding: 60px 25vw;
+}
+.container_content{
 	padding: 60px 25%;
 }
 .container_content > .desk{
@@ -57,9 +60,7 @@ a:hover
 	ul.social{
 		display: block !important;
 	}
-	.container_content{
-	padding: 60px 25%;
-	}
+
 	.content_num:nth-child(1) {
     margin-left: 0;
 	}
@@ -78,8 +79,8 @@ a.href{
 .subtitle{
 	margin: 20px 0
 }
-.container_content:last-child{
+/*.container_content:last-child{
     padding: 60px 15%;
-}
+}*/
 
 

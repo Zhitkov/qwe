@@ -76,8 +76,14 @@ ul.social{
     height:13px;
     filter: invert(1);
 }
+.href{
+    font-size: 12px;
+}
 .round>li>p {
     color: #393E6B;
     margin: 20px 35px;
+}
+.content_list {
+    padding-inline-start: 10px;
 }
 }
